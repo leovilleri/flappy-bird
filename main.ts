@@ -4,8 +4,8 @@ input.onButtonPressed(Button.A, function () {
 input.onButtonPressed(Button.B, function () {
     bird.change(LedSpriteProperty.Y, 1)
 })
-let emptyObstacleY = 0
-let ticks = 0
+let emptyObstacleY: number = []
+let ticks: number = []
 let bird: game.LedSprite = null
 let score = 0
 let wait = 1000
